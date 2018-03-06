@@ -22,7 +22,7 @@ public class PersonService {
         return person;
     }
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void updatePersonName(int id, String newName) {
         Db.update("update person set name=? where id=?", newName, id);
     }

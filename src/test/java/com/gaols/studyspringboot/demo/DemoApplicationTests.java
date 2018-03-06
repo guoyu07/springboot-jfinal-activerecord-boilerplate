@@ -27,7 +27,7 @@ public class DemoApplicationTests {
 
     @Test
     public void testUpdate() {
-        personService.updatePersonName(16, "gaols3");
+        personService.updatePersonName(16, "gaols10");
         System.out.println(Person.dao.findById(16).getName());
     }
 
