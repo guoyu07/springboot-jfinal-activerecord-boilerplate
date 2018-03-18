@@ -64,7 +64,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+			<scope>runtime</scope>
 		</dependency>
 		<!-- small changes being made to support spring transaction management -->
 		<dependency>
