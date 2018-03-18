@@ -27,13 +27,13 @@ public class DemoApplicationTests {
 
     @Test
     public void testUpdate() {
-        personService.updatePersonName(16, "gaols10");
-        System.out.println(Person.dao.findById(16).getName());
+        personService.updatePersonName(1, "gaols10");
+        System.out.println(Person.dao.findById(1).getName());
     }
 
     @Test
     public void testGet() {
-        Person person = personService.findById(16);
+        Person person = personService.findById(1);
         System.out.println(person.getName());
     }
 
